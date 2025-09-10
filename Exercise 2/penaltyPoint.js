@@ -30,3 +30,8 @@ function penaltyPoints(password = "") {
 
   return penalty;
 }
+console.log(penaltyPoints("2hT62g33u7")); // expected 1
+console.log(penaltyPoints("yh53GGf7h6")); // expected 1
+console.log(penaltyPoints("hg6666WT5s")); // expected 2
+console.log(penaltyPoints("hg6WTTT5ms")); // expected 2
+console.log(penaltyPoints("aabbcc")); // expected 3
